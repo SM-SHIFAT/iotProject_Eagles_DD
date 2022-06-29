@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<body>
+
+<h1>Control LED</h1>
+<form action="{{ url_for('turnOn') }}" method="post">
+    <input type="submit" value="ON">
+</form>
+<form action="{{ url_for('turnOff') }}" method="post">
+    <input type="submit" value="OFF">
+</form>
+</body>
+</html>
